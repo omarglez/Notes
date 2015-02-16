@@ -5,9 +5,13 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+\graphicspath{{images/}}
 \author{Omar Gonzalez}
 \begin{document}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Introduction Week 1 Jan 5}
 \subsection*{What is Structural Geology?}
 Observation-driven discipline that studies the deformation of solid materials (rocks and ices) in Earth and other planets.
@@ -23,6 +27,9 @@ GPS - campaign - long-term motion (annual averages), tectonic plate rates, creep
 
 Thrust (dip \verb|<| 30) or Reverse faults are the opposite of a normal fault where the bedding "goes down".
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Stereonets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Stereonets Week 2 Jan 12}
 Every plane and every line intersect at the same point (center of a sphere).
 Structural geologists use "Equal Area" or Schimt net.
@@ -51,7 +58,15 @@ We measure the dip as before, and get 73 degrees.\\
 \textbf{Angular Unconformity}: Difference in orientation between young and old units.\\
 \textbf{Disconformity}: Rock unit origins are not consistent for parallel sediments.\\
 \textbf{Nonconformity}: Different types of rock together, that would usually not be there.
+\begin{figure}[h]
+  \includegraphics[scale=0.50]{types-of-faults.jpg}
+  \centering
+  \caption{Different types of faults}
+\end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Map Analysis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Map Analysis Week 3 Jan 19}
 Identifying youngest rocks by their position relative to the other contacts.
 We will use a Piercing point to measure the displacement of the fault in the map.\\
@@ -84,16 +99,35 @@ pre-Cambrian (pC)
 
 % photo 1 sedimentary conglomerate on top. Beds of alternating rocks (sands and shales), secondary structures: faults on the sides
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Folds
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Folds Week 4 Jan 26}
 The hinge line can be symmetric or asymmetric, and the extension of the planes in the folds around it will lead to the same hinge line.
 The side are called limbs. If the hinge line is strait, then the fold is cylindrical.
 A trace is the line of intersection between a plane and your plane of view.
-An anticline and a syncline are the opposing "noses" of the fold, where the anticline is on top.\\
-\\
+An anticline and a syncline are the opposing "noses" of the fold, where the anticline is on top.
+\begin{figure}[h]
+  \includegraphics[scale=0.60]{folds-terminology.jpg}
+  \includegraphics[scale=0.80]{fold-types.jpg}
+  \centering
+  \caption{Basic fold terminology}
+\end{figure}\\
 An "ideal" fold (two planes intersecting) is called a chevron fold.
 Chevron folds can accommodate multiple folds of the same size, while concentric folds must get smaller.
 Folds can be harmonic were that wavelength and amplitude remain constant, or disharmonic, when they are not.
+\begin{figure}[h]
+  \includegraphics[scale=0.40]{fold-symbols.jpg}
+  \includegraphics[scale=0.30]{fold-categories.jpg}
+  \centering
+  \caption{Fold symbols and fold types}
+\end{figure}
+\begin{figure}[h]
+  \includegraphics[scale=0.30]{cylindrical-fold.png}
+  \includegraphics[scale=0.30]{non-cylindrical-fold.png}
+  \centering
+  \caption{Cylindrical folds vs non-cylindrical folds}
+\end{figure}
 
 \subsection*{Axial Plane Dips}
 \verb|~|90 = upright\\
@@ -110,7 +144,12 @@ The \textbf{vergence} direction (where the parasitic fault is going) is given by
 
 Dip isogons are lines connecting points in the fold (inner and outer surfaces) where the tangent line has the same plunge.
 The pattern of isogons defines the classification of the fold.\\
-\\
+\begin{figure}[h]
+  \includegraphics[scale=0.30]{fold-angles.jpg}
+  \includegraphics[scale=0.40]{fold-multiple.jpg}
+  \centering
+  \caption{Fold angles and fold combinations}
+\end{figure}
 \subsection*{Mechanisms of Folding}
 Buckling is compression from both sides towards the center of the planar contact.\\
 Passive Folding is similar to buckling, but with a rotational component, so it folds naturally.\\
@@ -130,6 +169,10 @@ This can also happen if the layers are separated by very thin weak layers. This 
 \textbf{Kink bands} are in little monocline folds separating the straight sides.
 When looked at from far enough, it may look like a fault.
 \textbf{Sheath folds} are extremely non-cylindrical folds that push so far as to create a space inside it.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Displacement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Displacement Week 5 Feb 2}
 Displacement from homogeneous deformation in an object can be represented by a displacement field.
 In heterogeneous deformation there are different particle paths for different points in the object.
@@ -152,7 +195,11 @@ Where the units of viscosity are $Pa \cdot s$.
 The equation we will use in the lab will be as follows:
 $$ \sigma = Ee + n\mathring{e} $$
 \\
-Coaxial vs non-coaxial deformation. With coaxial, the axes of shortening have elongations constant for all increments of strain. 
+Coaxial vs non-coaxial deformation. With coaxial, the axes of shortening have elongations constant for all increments of strain.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Foliation and Lineations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Foliations and Lineations Week 6 Feb 9}
 Rocks may have a tendency to break along their foliations.
 This characteristic is called cleavage.
@@ -161,6 +208,12 @@ Foliations are alignment of the minerals within the rock.\\
 Recap: 3 types of deformation.
 Some materials follow more than one type of deformation, like Maxwell solids.
 Some fabrics form through shear deformation, and the change from the regular non-elongated fabric to the elongated one defines whether the motion was left-lateral or right-lateral.
+\begin{figure}[h]
+  \includegraphics[scale=0.40]{foliation-vs-lineation.jpg}
+  \centering
+  \caption{Foliation vs Lineation}
+\end{figure}
+
 \subsection*{Crystal Defects}
 \textbf{Point Defect} is a 0-dimensional fault in a crystal.
 There are 3 types of point defects: vacancy, substitution and interstitial, where one atom is either missing, been replaced, or intruding in the material respectively.
